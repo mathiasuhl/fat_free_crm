@@ -306,7 +306,6 @@ DEPENDENCIES
   nokogiri
   paper_trail
   paperclip (= 3.0.1)
-  pg (~> 0.13.2)
   premailer
   prototype-rails
   pry-rails

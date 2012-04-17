@@ -49,8 +49,6 @@
 #
 
 class Lead < ActiveRecord::Base
-  include HasAGender
-  
   belongs_to  :user
   belongs_to  :campaign
   belongs_to  :assignee, :class_name => "User", :foreign_key => :assigned_to

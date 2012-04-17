@@ -17,10 +17,6 @@
         %td
           .label #{t :phone}:
           = f.text_field :phone
-      %tr
-        %td
-          .label #{t :gender}:
-          = f.select :gender, Contact.gender_select_options
 
     %table
       = fields_for(@account) do |a|
